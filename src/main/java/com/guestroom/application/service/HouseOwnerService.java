@@ -54,7 +54,7 @@ public class HouseOwnerService {
         //** file.transferTo(new File("Location" + file.getOriginalFilename())); **//
 
         // Set the photo link .....
-        houseOwnerEntity.setPhotoLink("Location" /*+ file.getOriginalFilename()*/);
+        houseOwnerEntity.setPhotoLink("FIle_Location" /*+ file.getOriginalFilename()*/);
         houseOwnerRepository.save(houseOwnerEntity);
         return houseOwnerEntity;
     }
